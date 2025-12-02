@@ -3,10 +3,10 @@ pipeline {
 
     environment {
         REMOTE_USER = "ubuntu"
-        REMOTE_HOST = "3.110.121.35"
+        REMOTE_HOST = "13.232.70.240"
         REMOTE_DIR  = "/home/ubuntu/jarvis"
         SSH_OPTS    = "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
-        CRED_ID     = "jarvis-key"
+        CRED_ID     = "node-app-key"
         SERVICE_NAME = "jarvis.service"
     }
 
@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/dalvipiyush07/Jarvis-Desktop-Voice-Assistant.git'
+                    url: 'https://github.com/aniketchougule108/Jarvis_Desktop_Voice_Assistant.git'
             }
         }
 
