@@ -265,7 +265,8 @@ Webhook triggers build on new GitHub pushes.
 ✓ Deployment working
 
 ---
-🏁 Conclusion
+
+## 🏁 Conclusion
 
 This project successfully delivers a fully automated, production-ready deployment pipeline for the Jarvis Desktop Voice Assistant. Using Terraform, the infrastructure is consistent, repeatable, and easy to manage. With Jenkins automation and GitHub webhooks, every code update is deployed instantly to the EC2 instance without manual effort. The application runs continuously using systemd, ensuring stable operation.
 
